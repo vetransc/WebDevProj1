@@ -1,0 +1,13 @@
+#selfie{
+    border: 10px solid rgb(95, 95, 95);
+    border-radius: 10%;
+}
+figure{
+    margin: auto;
+}
+p{
+    margin: auto;
+    width: 50vw;
+    padding: 20px;
+}
+

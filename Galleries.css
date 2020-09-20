@@ -1,0 +1,15 @@
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+figcaption{
+    font-size: 3em;
+}
+.gallery{
+    border: 15px ridge gray;
+}
+#mainStuff{
+    overflow-x: auto;
+}

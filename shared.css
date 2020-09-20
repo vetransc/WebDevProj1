@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    box-sizing: content-box;
+    align-items: flex-end;
+    overflow-x: hidden;
+}
+#lefter{
+    flex-grow: 0;
+    flex-basis: 0; 
+    max-width: 200px;
+    flex-shrink: 2;
+    padding:0;
+    padding-left: 10px;
+    margin: 0;
+
+}
+.navlinks{
+    list-style-type: none;
+    padding:10px;
+    margin: 0;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    flex-grow: 1; 
+    flex-basis: 0;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    overflow-x: auto;
+    align-items: baseline;
+
+}
+nav{
+    display: flex;
+    flex-grow: 1; 
+    flex-wrap: wrap;
+}
+.navlink{
+    padding: 5px;
+    font-size: 2em;
+    display: block;
+}
+
+#righter{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-basis: 0;
+    align-content: flex-start;
+    max-width: 200px;
+    flex-shrink: 2;
+    padding:10px;
+    margin: 0;
+    justify-items: flex-start;
+} 
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+/* Facebook */
+.fa-facebook { 
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Instagram */
+  .fa-instagram {
+    background: #002746;
+    color: white;
+  } 
