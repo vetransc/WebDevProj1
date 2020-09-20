@@ -10,15 +10,15 @@ header{
     justify-content: space-between;
     box-sizing: content-box;
     align-items: flex-end;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 #lefter{
     flex-grow: 0;
     flex-basis: 0; 
-    /* max-width: 200px; */
+    max-width: 200px;
     flex-shrink: 2;
     padding:0;
-    padding-left: 10px;
+    padding-left: 5px;
     margin: 0;
 
 }
@@ -54,11 +54,12 @@ nav{
     flex-grow: 0;
     flex-basis: 0;
     align-content: flex-start;
-    /* max-width: 200px; */
+    max-width: 200px;
     flex-shrink: 2;
-    padding:10px;
+    padding:5px;
     margin: 0;
     justify-items: flex-start;
+    flex-wrap: wrap;
 } 
 .fa {
     padding: 10px;
@@ -83,4 +84,3 @@ nav{
     display: flex;
     flex-direction: row;
 }
-
