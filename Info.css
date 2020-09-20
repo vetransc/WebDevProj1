@@ -1,0 +1,16 @@
+#faq{
+    max-width: 60%;
+    margin: 10px;
+
+}
+#price{
+max-width: 40%;
+margin: 10px;
+border: solid;
+padding: 10px;
+}
+#mainStuff{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
