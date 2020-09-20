@@ -4,6 +4,7 @@ figcaption{
 }
 .gallery{
     border: 15px ridge gray;
+    max-width: 90%;
 }
 #main{
     display: flex;
