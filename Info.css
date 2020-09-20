@@ -1,10 +1,11 @@
 #faq{
-    max-width: 60%;
+    width: 55%;
     margin: 10px;
+    margin-left: 5%;
 
 }
 #price{
-max-width: 40%;
+width: 40%;
 margin: 10px;
 border: solid;
 padding: 10px;
