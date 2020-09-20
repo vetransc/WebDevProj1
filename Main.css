@@ -6,14 +6,12 @@ body{
     min-height: 80vh;
 }
 #pics{
-    /* margin-top: 10px; */
-    
+
     object-fit: contain;
     border:15px groove  rgb(206, 199, 199);
     overflow-x: hidden;
     box-sizing: border-box;
     box-shadow: 10px 10px 5px 5px black;
-    /* padding: 10px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +19,7 @@ body{
 }
 figure{
     margin: 0;
-    padding: 10px;
+    padding: 2%;
     object-fit: contain;
     overflow-x: hidden;
     box-sizing: content-box;

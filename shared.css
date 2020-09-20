@@ -15,7 +15,7 @@ header{
 #lefter{
     flex-grow: 0;
     flex-basis: 0; 
-    max-width: 200px;
+    /* max-width: 200px; */
     flex-shrink: 2;
     padding:0;
     padding-left: 10px;
@@ -54,7 +54,7 @@ nav{
     flex-grow: 0;
     flex-basis: 0;
     align-content: flex-start;
-    max-width: 200px;
+    /* max-width: 200px; */
     flex-shrink: 2;
     padding:10px;
     margin: 0;
@@ -79,3 +79,7 @@ nav{
     background: #002746;
     color: white;
   } 
+#mainStuff{
+    display: flex;
+    flex-direction: row;
+}

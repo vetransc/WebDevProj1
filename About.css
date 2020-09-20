@@ -1,5 +1,5 @@
 #selfie{
-    border: 10px solid rgb(95, 95, 95);
+    border: 15px ridge rgb(95, 95, 95);
     border-radius: 10%;
 }
 figure{
@@ -8,6 +8,6 @@ figure{
 p{
     margin: auto;
     width: 50vw;
-    padding: 20px;
+    padding: 2%;
 }
 
