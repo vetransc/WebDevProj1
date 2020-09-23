@@ -1,4 +1,7 @@
-
+body{
+    box-sizing: content-box;
+    overflow-x: auto;
+}
 figcaption{
     font-size: 3em;
 }

@@ -1,7 +1,5 @@
 body{
-    padding: 0;
-    margin: 0;
-    /* overflow-x: hidden; */
+
     box-sizing: content-box;
     min-height: 80vh;
 }
@@ -17,16 +15,6 @@ body{
     margin-right: auto;
     max-width: 90%;
 
-}
-figure{
-    margin: 0;
-    padding: 2%;
-    object-fit: contain;
-    /* overflow-x: hidden; */
-    box-sizing: content-box;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
     
 /* }
