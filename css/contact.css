@@ -6,8 +6,19 @@
     
 }
 form{
+    display: flex;
+    flex-direction: column;
     margin-left: 20px;
     padding: 20px;
     padding-top:5px;
     background-color: rgb(223, 223, 223);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 80%;
+    box-sizing: border-box;
+    border: black solid;
+}
+#mainStuff{
+    flex-wrap: wrap;
 }
