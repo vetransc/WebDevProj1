@@ -16,9 +16,11 @@ body{
     max-width: 90%;
 
 }
-    
-/* }
-#mainPic{
-    overflow: auto;
-} */
+.mySlides{
+    position: fixed;
+    transition: opacity 4s ease-in-out;
 
+}
+.mySlides.hide{
+    opacity: 0;
+}
