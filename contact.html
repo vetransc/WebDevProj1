@@ -91,20 +91,20 @@
         </div>
 
         <form action="mailto:Wrightphotographyllc@gmail.com" method="post" enctype="text/plain">
-            First name:<br>
-            <input type="text" name="First name" required>
-            Last name:<br>
-            <input type="text" name="Last name" required>
-            E-mail:<br>
-            <input type="text" name="E-mail" required>
+            <label for="name">First name:</label>
+            <input type="text" id="name" name="First name" required>
+           <label for="last">Last name:</label>
+            <input type="text" id="last" name="Last name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="E-mail" required>
             <div> Type of photoshoot:<br>
                 <input type="checkbox" name="Wedding">Wedding
                 <input type="checkbox" name="Engagement">Engagement
                 <input type="checkbox" name="Portrait">Portrait
                 <input type="checkbox" name="Other">Other<br>
             </div>
-            Comment:<br>
-            <textarea name="comment"></textarea>
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment"></textarea>
 
             <div>
                 <input type="submit" value="Send">
