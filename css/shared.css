@@ -59,7 +59,7 @@ figure{
     margin: 0;
 
 }
-.navlinks{
+#navlinks{
     list-style-type: none;
     padding:10px;
     margin: 0;
@@ -245,4 +245,43 @@ nav{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color:inherit;} 
 
+  nav {
+    overflow: hidden;
+    background-color: inherit;
+    justify-content: center;
+  }
+  
+  #navlinks {
+    display: none;
+  }
+  
+  .navlink {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .nav-icon {
+    margin: 1em;
+    width: 40px;
+  }
+   
+  .nav-icon div {
+    background-color: black;
+    border-radius: 3px;
+    content: '';
+    display: block;
+    height: 5px;
+    margin: 7px 0;
+  }
+  
+  .nav-icon:hover {
+    background-color: inherit;
+    color: black;
+  }
+  
 }
+
+
