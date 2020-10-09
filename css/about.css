@@ -1,12 +1,14 @@
 #selfie{
     border: 15px ridge rgb(95, 95, 95);
     border-radius: 10%;
+    width: 250px;
+    height: 250px;
 }
 
-p{
+
+.aboutinfo{
     margin: auto;
     width: 50vw;
-    padding: 2%;
-    
+    padding-left: 20px;
 }
 
