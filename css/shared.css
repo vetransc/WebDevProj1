@@ -59,6 +59,10 @@ figure{
     margin: 0;
 
 }
+#logo{
+  width: 80px;
+  height: 80px;
+}
 #navlinks{
     list-style-type: none;
     padding:10px;
@@ -113,10 +117,6 @@ nav{
     background: #3B5998;
   }
   
-  /* Instagram */
-  .fa-instagram {
-    background: #002746;
-  } 
   a.fa-facebook:link {
     color: white;
   }
@@ -129,18 +129,7 @@ nav{
   a.fa-facebook:active{
     color: white;
   }
-  a.fa-instagram:link {
-    color: white;
-  }
-  a.fa-instagram:visited {
-    color: white;
-  }
-  a.fa-instagram:hover {
-    color: whitesmoke;
-  }
-  a.fa-instagram:active{
-    color: white;
-  }
+  
 #mainStuff{
     display: flex;
     flex-direction: row;
