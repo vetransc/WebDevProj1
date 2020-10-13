@@ -21,3 +21,26 @@ figure{
     margin: 0;
     margin-left: 5%;
 }
+#tophalf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#stickyFAQ{
+    right: 0;
+    top: 25vh;
+    position: fixed;
+    margin-right: 10px;
+    border-style: solid;
+    max-width: 30vw;
+    max-height: 70vh;
+    overflow-y: auto;
+    background-color: #f89654;
+}
+ul{
+    padding: 5px;
+    list-style: none;
+}
+li{
+    padding-bottom: 5px;
+}
