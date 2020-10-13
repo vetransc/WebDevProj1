@@ -2,12 +2,22 @@
     width: 55%;
     margin: 2%;
     margin-left: 5%;
+    margin-top: 1%;
 
 }
-#price{
-width: 40%;
-margin: 2%;
-border: solid;
-padding: 2%;
+
+h2{
+    color: #342B2B;
+  }
+#pic{
+    max-width: 15vw;
+    height: auto;
+    padding: 0;
+    margin-top: 5px;
+    border: ridge 15px grey;
 }
 
+figure{
+    margin: 0;
+    margin-left: 5%;
+}

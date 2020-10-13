@@ -24,7 +24,7 @@ header{
     background-color: #72B26D;
     /* overflow-x: auto; */
     margin-top: 2%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'EB Garamond',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
 a:link {
@@ -161,7 +161,7 @@ nav{
   .dropdown-content {
     display: none;
     position: fixed;
-    background-color: #f1f1f1;
+    background-color: #f89654;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;

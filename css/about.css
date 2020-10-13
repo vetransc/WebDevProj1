@@ -11,4 +11,24 @@
     width: 50vw;
     padding-left: 20px;
 }
+@media(max-width: 1200px){
+    body{
+        padding-bottom: 10px;
+    }
+    #selfie{
+        border: 15px ridge rgb(95, 95, 95);
+        border-radius: 10%;
+        width: 200px;
+        height: 200px;
+    }
+}
+@media(max-width: 600px){
+    #selfie{
+        border: 15px ridge rgb(95, 95, 95);
+        border-radius: 10%;
+        width: 100px;
+        height: 100px;
+    }
+}
+
 

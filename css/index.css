@@ -6,7 +6,7 @@ body{
 #pics{
 
     object-fit: contain;
-    border:15px groove  rgb(206, 199, 199);
+    border: 15px ridge gray;
     box-sizing: border-box;
     box-shadow: 10px 10px 5px 5px black;
     display: block;
