@@ -3,8 +3,14 @@ body{
     box-sizing: content-box;
     min-height: 80vh;
 }
-#pics{
 
+.mySlides{
+    position: absolute;
+    transition: opacity 4s ease-in-out;
+    height: 480px;
+    width: 700px;
+    left: 28%;
+    object-fit: contain;
     object-fit: contain;
     border: 15px ridge gray;
     box-sizing: border-box;
@@ -13,15 +19,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     max-width: 90%;
-
-}
-.mySlides{
-    position: absolute;
-    transition: opacity 4s ease-in-out;
-    height: 480px;
-    width: 700px;
-    left: 28%;
-    object-fit: contain;
 
 }
 .mySlides.hide{
@@ -41,14 +38,13 @@ h1{
 }
 
 @media (max-width: 1200px){
-    #pics{
-     max-height: 40%;   
-    }
+
     h1{
         padding-top: 50vh;
     }
     .mySlides{
         left: 2%;
+        max-height: 40%;   
     }
 
 }
